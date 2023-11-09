@@ -1,4 +1,3 @@
-
 import React from "react";
 const Course = async () => { // 비동기 함수로 변경시켜줌
   const response = await fetch("http://localhost:9999/courses", {

@@ -1,8 +1,9 @@
 {
   "userInfo" : {
     "name" : "admin",
-    "address" : "admin@ajou.ac.kr",
+    "email" : "admin@ajou.ac.kr",
     "studentId" : "202300000",
+    "major" : "소프트웨학과",
     "phoneNumber" : "01012345678"
   },
   "courses" : [
