@@ -13,13 +13,18 @@ const RootLayout = async ({children}) => {
   const responses = await response.json();
   return (
     <html lang="en">
-      <body>
-        <>
+      <body style = {{padding : '0px', margin:"0px"}}>
+        <div style = {{flexDirection : "row" ,display : "flex", height : '100vh'}}>
           <SideBar
-            name={responses.name} />
-        </>
-        {children}
+            name={responses.name}
+          />
+          {children}
+        </div>
+        
       </body>
+
+      
+
     </html>
   )
 }

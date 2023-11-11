@@ -11,20 +11,22 @@ const Profile = async () => { // 비동기 함수로 변경시켜줌
 
   return (
     <>
-      <UserProfile
-        name={userInfo.name}
-        studentId={userInfo.studentId}
-      />
-      <UserBaseInfo
-        name={userInfo.name}
-        email={userInfo.email}
-        major={userInfo.major}
-      />
-      <UserPhoneInfo
-        phoneNumber={userInfo.phoneNumber}
-      />
-      <UserConfig
-      />
+      <div>
+        <UserProfile
+          name={userInfo.name}
+          studentId={userInfo.studentId}
+        />
+        <UserBaseInfo
+          name={userInfo.name}
+          email={userInfo.email}
+          major={userInfo.major}
+        />
+        <UserPhoneInfo
+          phoneNumber={userInfo.phoneNumber}
+        />
+        <UserConfig
+        />
+      </div>
     </>
   );  
 };
