@@ -74,7 +74,7 @@ const sideBar = (props) => {
                 padding : 5px 0px 5px 0px;
             }
             .sideBarDetail {
-                padding : 0em 1em 0em 1em;
+                padding : 0.5rem 1rem 0rem 1rem;
                 display : flex;
                 flex-direction : column;
                 gap : 8px;

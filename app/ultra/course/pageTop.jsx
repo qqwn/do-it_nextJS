@@ -6,6 +6,9 @@ const classesTop = (props) => {
             <div className = 'class-box'>
                 <p>코스</p>
             </div>
+            <div className = 'arrow'>
+                
+            </div>
         
             <style jsx>{`
                 .class-box{
@@ -20,7 +23,12 @@ const classesTop = (props) => {
                     display : flex;
                     font-size : 12px;
                     color : darkgrey;
-
+                }
+                .arrow{
+                    position : flex;
+                    display : flex;
+                    flex-direction : column;
+                    margin : 1rem 1rem 1rem 1rem;
                 }
             `}</style>
         </div>
